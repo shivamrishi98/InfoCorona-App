@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C819761B2A41EA7AE8AFD95 /* Pods_InfoCorona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36CFCF2D7232B3871CF728E /* Pods_InfoCorona.framework */; };
+		963845E3242C776000E355C5 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963845E2242C776000E355C5 /* XYMarkerView.swift */; };
+		963845E9242C794200E355C5 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963845E8242C794200E355C5 /* BalloonMarker.swift */; };
+		963845EB242C7CE000E355C5 /* dm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963845EA242C7CE000E355C5 /* dm.swift */; };
+		963845EF242CFF7400E355C5 /* mythTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963845EE242CFF7400E355C5 /* mythTableViewCell.swift */; };
+		963845F1242D02EC00E355C5 /* mythVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963845F0242D02EC00E355C5 /* mythVC.swift */; };
 		96E12AC7242B14560084BB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E12AC6242B14560084BB42 /* AppDelegate.swift */; };
 		96E12AC9242B14560084BB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E12AC8242B14560084BB42 /* SceneDelegate.swift */; };
 		96E12ACB242B14560084BB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E12ACA242B14560084BB42 /* ViewController.swift */; };
 		96E12ACE242B14560084BB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E12ACC242B14560084BB42 /* Main.storyboard */; };
 		96E12AD0242B14580084BB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E12ACF242B14580084BB42 /* Assets.xcassets */; };
 		96E12AD3242B14580084BB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E12AD1242B14580084BB42 /* LaunchScreen.storyboard */; };
+		96E12ADB242B174D0084BB42 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E12ADA242B174D0084BB42 /* dataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23FD19DED4999F45AE068642 /* Pods-InfoCorona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfoCorona.debug.xcconfig"; path = "Target Support Files/Pods-InfoCorona/Pods-InfoCorona.debug.xcconfig"; sourceTree = "<group>"; };
+		963845E2242C776000E355C5 /* XYMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
+		963845E8242C794200E355C5 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		963845EA242C7CE000E355C5 /* dm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dm.swift; sourceTree = "<group>"; };
+		963845EE242CFF7400E355C5 /* mythTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mythTableViewCell.swift; sourceTree = "<group>"; };
+		963845F0242D02EC00E355C5 /* mythVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mythVC.swift; sourceTree = "<group>"; };
 		96E12AC3242B14560084BB42 /* InfoCorona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoCorona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E12AC6242B14560084BB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E12AC8242B14560084BB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,9 @@
 		96E12ACF242B14580084BB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E12AD2242B14580084BB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E12AD4242B14580084BB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E12ADA242B174D0084BB42 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		B36CFCF2D7232B3871CF728E /* Pods_InfoCorona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfoCorona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA91AA138E2210E4BDE0BD2A /* Pods-InfoCorona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfoCorona.release.xcconfig"; path = "Target Support Files/Pods-InfoCorona/Pods-InfoCorona.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C819761B2A41EA7AE8AFD95 /* Pods_InfoCorona.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5106ECDDA18C21C0A2C0FF03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23FD19DED4999F45AE068642 /* Pods-InfoCorona.debug.xcconfig */,
+				FA91AA138E2210E4BDE0BD2A /* Pods-InfoCorona.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		96E12ABA242B14560084BB42 = {
 			isa = PBXGroup;
 			children = (
 				96E12AC5242B14560084BB42 /* InfoCorona */,
 				96E12AC4242B14560084BB42 /* Products */,
+				5106ECDDA18C21C0A2C0FF03 /* Pods */,
+				96EC428A3FB7ED01D0CDC4FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +91,22 @@
 				96E12ACF242B14580084BB42 /* Assets.xcassets */,
 				96E12AD1242B14580084BB42 /* LaunchScreen.storyboard */,
 				96E12AD4242B14580084BB42 /* Info.plist */,
+				96E12ADA242B174D0084BB42 /* dataModel.swift */,
+				963845E8242C794200E355C5 /* BalloonMarker.swift */,
+				963845E2242C776000E355C5 /* XYMarkerView.swift */,
+				963845EA242C7CE000E355C5 /* dm.swift */,
+				963845EE242CFF7400E355C5 /* mythTableViewCell.swift */,
+				963845F0242D02EC00E355C5 /* mythVC.swift */,
 			);
 			path = InfoCorona;
+			sourceTree = "<group>";
+		};
+		96EC428A3FB7ED01D0CDC4FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36CFCF2D7232B3871CF728E /* Pods_InfoCorona.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96E12AD7242B14580084BB42 /* Build configuration list for PBXNativeTarget "InfoCorona" */;
 			buildPhases = (
+				40CA5E583460C0EF3F0E7694 /* [CP] Check Pods Manifest.lock */,
 				96E12ABF242B14560084BB42 /* Sources */,
 				96E12AC0242B14560084BB42 /* Frameworks */,
 				96E12AC1242B14560084BB42 /* Resources */,
+				7DD17E584D96FCA1AC92D320 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +177,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40CA5E583460C0EF3F0E7694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfoCorona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD17E584D96FCA1AC92D320 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfoCorona/Pods-InfoCorona-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfoCorona/Pods-InfoCorona-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfoCorona/Pods-InfoCorona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96E12ABF242B14560084BB42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96E12ACB242B14560084BB42 /* ViewController.swift in Sources */,
+				96E12ADB242B174D0084BB42 /* dataModel.swift in Sources */,
+				963845E3242C776000E355C5 /* XYMarkerView.swift in Sources */,
+				963845EB242C7CE000E355C5 /* dm.swift in Sources */,
 				96E12AC7242B14560084BB42 /* AppDelegate.swift in Sources */,
 				96E12AC9242B14560084BB42 /* SceneDelegate.swift in Sources */,
+				963845F1242D02EC00E355C5 /* mythVC.swift in Sources */,
+				963845EF242CFF7400E355C5 /* mythTableViewCell.swift in Sources */,
+				963845E9242C794200E355C5 /* BalloonMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +374,7 @@
 		};
 		96E12AD8242B14580084BB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FD19DED4999F45AE068642 /* Pods-InfoCorona.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		96E12AD9242B14580084BB42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA91AA138E2210E4BDE0BD2A /* Pods-InfoCorona.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
